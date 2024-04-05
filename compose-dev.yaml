@@ -17,5 +17,8 @@ services:
       - "3001:3001"
     depends_on:
       - db
+    environment:
+      RAKUTEN_APPLICATION_ID: "1062270564308934159"
+      RAKUTEN_AFFILIATE_ID: "3a3d7a2c.e0958bf8.3a3d7a2d.57bcf82b"
 volumes:
   db-data:
