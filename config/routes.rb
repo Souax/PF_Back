@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root "homes#top"
   namespace :api do
     namespace :v1 do
       post 'auth/google/callback', to: 'users#create'
